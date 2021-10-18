@@ -26,12 +26,12 @@ main{
     flex-grow: 1;
 }
 
-.h2{
+h2{
     align-items: flex-start;
     justify-items: flex-start;
 }
 
-.h3{
+h3{
     align-items: flex-end;
     justify-items: flex-end;
 }
@@ -57,8 +57,7 @@ main{
 .galeria-itens:nth-child(4){grid-area: item4;}
 .galeria-itens:nth-child(5){grid-area: item5;}
 .galeria-itens:nth-child(6){grid-area: item6;}
-.galeria-itens:nth-child(7){grid-area: item7;}
-.galeria-itens:nth-child(8){grid-area: item8;}
+
 
 img{
     width: 100%;
