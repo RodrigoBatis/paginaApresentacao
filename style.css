@@ -15,27 +15,24 @@ body{
 }
 
 header{
-    height: 600px;
-    font-size: 50px;
+    height: 40vh;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 main{
+    width: 100vw;
+    height: 100vh;
     flex-grow: 1;
 }
 
-h2{
-    align-items: flex-start;
-    justify-items: flex-start;
+.titulosImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-
-h3{
-    align-items: flex-end;
-    justify-items: flex-end;
-}
-
 .galeria-container{
     height: 100%;
     width: 100%;
