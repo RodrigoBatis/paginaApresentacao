@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    animation: changeBackgroundColor 7s infinite; /* propriedade de animação */
+   
 }
 
 header{
@@ -38,17 +38,7 @@ header{
 main{
     flex-grow: 1;
 }
-@keyframes changeBackgroundColor {
-    0% {
-      background-color: #001F3F;
-    }
-    50% {
-      background-color: #ffd4d2;
-    }
-    100% {
-      background-color: #001F3F;
-    }
-  }
+
 
 .titulosImg{
     font-weight: 400;
@@ -71,6 +61,7 @@ main{
     padding:5px;
     gap: 25px;
     grid-template-areas:
+    
     "item1 item1 item4 item4"
     "item1 item1 item4 item4"
     "item2 item2 item5 item5"
